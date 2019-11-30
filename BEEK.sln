@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BEEK", "BEEK\BEEK.csproj", "{6A78EFBC-CD2E-4268-8240-6D243D237BDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A78EFBC-CD2E-4268-8240-6D243D237BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A78EFBC-CD2E-4268-8240-6D243D237BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A78EFBC-CD2E-4268-8240-6D243D237BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A78EFBC-CD2E-4268-8240-6D243D237BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA26DFFD-AADE-40D5-AE28-5ACF165715B1}
+	EndGlobalSection
+EndGlobal
