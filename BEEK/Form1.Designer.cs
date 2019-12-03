@@ -41,9 +41,6 @@
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnSepet = new System.Windows.Forms.Button();
             this.kullanıcıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.duyurularToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ürünlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -56,6 +53,9 @@
             this.iletişimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.yardımToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logInToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnSepet = new System.Windows.Forms.Button();
             this.pnlLogIn.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -73,7 +73,7 @@
             this.pnlLogIn.Location = new System.Drawing.Point(323, 191);
             this.pnlLogIn.Margin = new System.Windows.Forms.Padding(4);
             this.pnlLogIn.Name = "pnlLogIn";
-            this.pnlLogIn.Size = new System.Drawing.Size(474, 273);
+            this.pnlLogIn.Size = new System.Drawing.Size(471, 264);
             this.pnlLogIn.TabIndex = 3;
             // 
             // lblMessage
@@ -175,7 +175,7 @@
             this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Table;
             this.menuStrip1.Location = new System.Drawing.Point(12, 140);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(244, 411);
+            this.menuStrip1.Size = new System.Drawing.Size(245, 411);
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -188,44 +188,6 @@
             this.toolStripTextBox1.Size = new System.Drawing.Size(177, 47);
             this.toolStripTextBox1.Text = "Kategoriler";
             this.toolStripTextBox1.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Bahnschrift Condensed", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(239, 62);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(231, 53);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "SANALMARKET";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::BEEK.Properties.Resources.beek_coupons;
-            this.pictureBox2.Location = new System.Drawing.Point(-69, 5);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(375, 132);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 13;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // btnSepet
-            // 
-            this.btnSepet.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSepet.ImageKey = "basket-256.png";
-            this.btnSepet.ImageList = this.ımageList1;
-            this.btnSepet.Location = new System.Drawing.Point(807, 37);
-            this.btnSepet.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSepet.Name = "btnSepet";
-            this.btnSepet.Size = new System.Drawing.Size(100, 87);
-            this.btnSepet.TabIndex = 10;
-            this.btnSepet.Text = "Sepetim";
-            this.btnSepet.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSepet.UseVisualStyleBackColor = true;
-            this.btnSepet.Click += new System.EventHandler(this.button6_Click);
             // 
             // kullanıcıToolStripMenuItem
             // 
@@ -257,19 +219,19 @@
             // fırınToolStripMenuItem
             // 
             this.fırınToolStripMenuItem.Name = "fırınToolStripMenuItem";
-            this.fırınToolStripMenuItem.Size = new System.Drawing.Size(224, 36);
+            this.fırınToolStripMenuItem.Size = new System.Drawing.Size(178, 36);
             this.fırınToolStripMenuItem.Text = "fırın";
             // 
             // meyveToolStripMenuItem
             // 
             this.meyveToolStripMenuItem.Name = "meyveToolStripMenuItem";
-            this.meyveToolStripMenuItem.Size = new System.Drawing.Size(224, 36);
+            this.meyveToolStripMenuItem.Size = new System.Drawing.Size(178, 36);
             this.meyveToolStripMenuItem.Text = "meyve";
             // 
             // sebzeToolStripMenuItem
             // 
             this.sebzeToolStripMenuItem.Name = "sebzeToolStripMenuItem";
-            this.sebzeToolStripMenuItem.Size = new System.Drawing.Size(224, 36);
+            this.sebzeToolStripMenuItem.Size = new System.Drawing.Size(178, 36);
             this.sebzeToolStripMenuItem.Text = "sebze";
             // 
             // siparişlerToolStripMenuItem
@@ -278,6 +240,7 @@
             this.siparişlerToolStripMenuItem.Name = "siparişlerToolStripMenuItem";
             this.siparişlerToolStripMenuItem.Size = new System.Drawing.Size(167, 40);
             this.siparişlerToolStripMenuItem.Text = "Siparişler";
+            this.siparişlerToolStripMenuItem.Click += new System.EventHandler(this.siparişlerToolStripMenuItem_Click);
             // 
             // favorilerToolStripMenuItem
             // 
@@ -315,6 +278,44 @@
             this.logInToolStripMenuItem.Size = new System.Drawing.Size(135, 40);
             this.logInToolStripMenuItem.Text = "Log In";
             this.logInToolStripMenuItem.Click += new System.EventHandler(this.logInToolStripMenuItem_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Bahnschrift Condensed", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(232, 51);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(231, 53);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "SANALMARKET";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::BEEK.Properties.Resources.beek_coupons;
+            this.pictureBox2.Location = new System.Drawing.Point(-69, 5);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(375, 132);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // btnSepet
+            // 
+            this.btnSepet.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSepet.ImageKey = "basket-256.png";
+            this.btnSepet.ImageList = this.ımageList1;
+            this.btnSepet.Location = new System.Drawing.Point(807, 37);
+            this.btnSepet.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSepet.Name = "btnSepet";
+            this.btnSepet.Size = new System.Drawing.Size(100, 87);
+            this.btnSepet.TabIndex = 10;
+            this.btnSepet.Text = "Sepetim";
+            this.btnSepet.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSepet.UseVisualStyleBackColor = true;
+            this.btnSepet.Click += new System.EventHandler(this.button6_Click);
             // 
             // BEEK
             // 

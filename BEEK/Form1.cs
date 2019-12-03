@@ -37,7 +37,7 @@ namespace BEEK
 
         private void button6_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void btnRegister_Click(object sender, EventArgs e)
@@ -90,6 +90,12 @@ namespace BEEK
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void siparişlerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Siparis siparis = new Siparis();
+            siparis.Show();
         }
     }
 }

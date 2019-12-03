@@ -40,3 +40,4 @@ D:\beek\BEEK\obj\Debug\BEEK.csproj.CopyComplete
 D:\beek\BEEK\obj\Debug\BEEK.exe
 D:\beek\BEEK\obj\Debug\BEEK.pdb
 D:\beek\BEEK\obj\Debug\BEEK.csprojAssemblyReference.cache
+D:\beek\BEEK\obj\Debug\BEEK.Siparis.resources
